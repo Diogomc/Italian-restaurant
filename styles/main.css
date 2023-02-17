@@ -89,8 +89,13 @@
     }
     .principal-foods{
         flex-direction: column;
+        max-width: 100%;
     }
     .food-item{
         margin: 0;
+        width: 100%;
+    }
+    .foods-img{
+        width: 100%;
     }
 }

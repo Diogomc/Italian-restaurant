@@ -17,7 +17,7 @@
     transition: 0.3s linear;
 }
 .img{
-    background-image: url(/img/pizza.jpg);
+    background-image: url(/img/restaurant.jpg);
     background-size: cover;
     background-position: center;
     height: 600px;

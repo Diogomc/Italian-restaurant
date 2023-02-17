@@ -1,0 +1,49 @@
+.first__container{
+    position: absolute;
+    top: 40%; 
+    left: 35%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.title__first{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: 'Shadows Into Light';
+    color: #fff;
+}
+.btn__first{
+    background-color: var(--red);
+    padding: 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+}
+.btn__first:hover{
+    box-shadow: 1px 1px 8px #000;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+.scroll{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    .first__container{
+        top: 20%;
+        right: 30%;
+    }
+    .btn__first{
+        font-size: 12px;
+    }
+}

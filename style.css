@@ -1,0 +1,16 @@
+@import url("/styles/header.css");
+@import url("/styles/main.css");
+:root{
+    --red: #E23E57;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'roboto';
+}

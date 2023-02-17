@@ -52,7 +52,7 @@
 @media screen and (max-width: 600px) {
     .container__header{
         background-color: var(--red);
-        height: 50px;
+        height: 60px;
         justify-content: space-between;
         width: 100vw;
     }

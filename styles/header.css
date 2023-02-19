@@ -12,8 +12,11 @@
     box-shadow: 1px 1px 8px black;
     background-color: rgb(17, 17, 17, 0.4);
 }
+.menu-window .menu-itens a{
+    color: var(--brown);
+}
 .menu-window{
-    background-color: var(--red);
+    background-color: var(--principal);
     transition: 0.3s linear;
 }
 .img{
@@ -28,6 +31,7 @@
     height: 40px;
     display: none;
 }
+
 .mobile__menu{
     display: none;
 }

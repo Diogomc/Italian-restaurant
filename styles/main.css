@@ -99,11 +99,9 @@
     margin: 15px;
 }
 .btn-meals:hover{
-    background: none;
-    color: var(--red);
     transition: 0.3s;
     transform: scale(1.1);
-    border: 1px solid;
+    box-shadow: 1px 1px 8px #000;
 }
 .img-meal{
     width: 400px;

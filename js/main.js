@@ -1,3 +1,5 @@
+
+//choose a meal function
 const text = document.querySelector('.text-meal')
 const button = document.querySelectorAll('.btn-meals')
 const img = document.querySelector('.img-meal')
@@ -11,8 +13,6 @@ const littleText = [
     '<h1>Lunch</h1><p>Duis finibus dapibus neque id tempor. Quisque tempor ipsum nisl. Morbi eget ex nec velit efficitur blandit. Vestibulum fermentum eros non lectus varius, nec finibus est maximus.</p>',
     '<h1>Dinner</h1><p>Nulla rhoncus a nunc at lacinia. Donec scelerisque nibh id hendrerit porta. Pellentesque nunc enim, malesuada quis mollis quis, pretium id ante.</p>'
 ]
-
-
 button.forEach((element, index)=>{
     let index1 = index;
     element.addEventListener('click',(index)=>{
@@ -20,3 +20,25 @@ button.forEach((element, index)=>{
         img.setAttribute('src', `${imgs[index1]}`)
     })
 })
+// --------------------------------- //
+
+
+const header = document.querySelector('.container__header');
+const rainbow = document.querySelector('.scroll')
+
+rainbow.addEventListener('click',()=>{
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    })
+})
+function setColor(){
+    if(window.scrollY != 0){
+        header.classList.add('menu-window');
+        rainbow.style.display = 'block'
+    }else{
+        header.classList.remove('menu-window')
+        rainbow.style.display = 'none'
+    }
+}
+window.addEventListener('scroll', setColor)

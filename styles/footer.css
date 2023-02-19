@@ -1,0 +1,31 @@
+.bottom-site{
+    background-color: var(--principal);
+    color: var(--brown);
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.title-footer{
+    margin: 50px 0 20px 0;
+    color: #000;
+}
+.ul-footer{
+    list-style: none;
+}
+.list-footer{
+    padding: 10px 0;
+}
+.copyright{
+    text-align: center;
+    padding: 40px 0;
+}
+.copyright a{
+    color: black;
+}
+@media screen and (max-width: 600px){
+    .footer-container{
+        flex-direction: column;
+    }
+}

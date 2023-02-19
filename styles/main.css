@@ -83,6 +83,7 @@
     text-align: center;
     font-size: 2rem;
     padding: 40px 0;
+    color: var(--red);
 }
 .buttons-meals{
     display: flex;
@@ -114,13 +115,13 @@
     display: flex;
     align-items: center;
 }
-.title-meal{
-    margin: 0 20px;
-}
 .text-meal{
     font-size: 20px;
     padding: 20px;
     max-width: 50vw;
+}
+.text-meal h1{
+    font-size: 2.5rem;
 }
 
 @media screen and (max-width: 600px) {

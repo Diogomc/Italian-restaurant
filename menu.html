@@ -11,11 +11,12 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Shadows+Into+Light&display=swap"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <div class="img"></div>
+    <div class="banner-menu"></div>
     <header class="container__header">
         <img class="menu__btn" src="/img/menu.png" alt="">
         <div class="itens__container">
@@ -27,7 +28,7 @@
                 <li class="menu-itens"><a href="sign.html">Sign in</a></li>
             </ul>
         </div>
-        
+
         <div class="icons__container">
             <a href="#">
                 <img class="icons" src="/img/search.png" alt="Search">
@@ -40,49 +41,36 @@
             </a>
         </div>
     </header>
-   
-    <section class="first">
-        <div class="first__container">
-            <h1 class="title__first">Italian Restaurant</h1>
-            <button class="btn__first">make a reserve</button>
-        </div>
-        <div class="scroll-button"><img class="scroll" src="/img/seta-para-cima.png" alt=""></div>
-    </section>
-    <section class="principal-foods">
-        <div class="food-item">
-            <img class="foods-img" src="/img/pizza.jpg" alt="">
-            <h1>Pizza</h1>
-            <p>The tradicional pizza of Italy</p>
-            <button class="btn-foods">Order Now</button>
-        </div>
-        <div class="food-item">
-            <img class="foods-img" src="/img/pasta.jpg" alt="">
-            <h1>Pasta</h1>
-            <p>The typical food of east of Italy</p>
-            <button class="btn-foods">Order Now</button>
-        </div>
-        <div class="food-item">
-            <img class="foods-img" src="/img/gelato.jpg" alt="">
-            <h1>Gelato</h1>
-            <p>Many tastes of gelato</p>
-            <button class="btn-foods">Order Now</button>
+    <section class="container-menu">
+        <h1 class="menu-title">Welcome to the our Menu</h1>
+        <p class="menu-description">Choose a option</p>
+        <div class="choose-option">
+            <button class="btn-normal">Normal</button>
+            <button class="btn-vegeterian">Vegeterian</button>
         </div>
     </section>
-    <section class="meals">
-        <h1 class="title">Our Meals</h1>
-        <div class="container-meals">
-            <img class="img-meal" src="img/kitchen.jpg">
-            <div class="text">
-                <div class="text-meal">
-                    <h1>Choose a Meal</h1>
-                    <p>We have all meals of the day, come here to meet!</p>
-                </div>
-            </div>
+    <h1 class="menu-normal-title"></h1>
+    <section class="menu-normal">
+        <div class="menu-item">
+            <img class="menu-normal-foods" src="/img/spaghettimenu.jpg">
+            <h4>Spaghetti</h4>
+            <p>lorem ipsum</p>
+            <p>$35,99</p>
+            <button class="orderNow">Order Now</button>
         </div>
-        <div class="buttons-meals">
-            <button class="btn-meals breakfast">Breakfast</button>
-            <button class="btn-meals lunch">Lunch</button>
-            <button class="btn-meals dinner">Dinner</button>
+        <div class="menu-item">
+            <img class="menu-normal-foods" src="/img/raviolimenu.jpg">
+            <h4>Ravioli</h4>
+            <p>lorem ipsum</p>
+            <p>$20,99</p>
+            <button class="orderNow">Order Now</button>
+        </div>
+        <div class="menu-item">
+            <img class="menu-normal-foods" src="/img/pizzamenu.jpg">
+            <h4>Pizza</h4>
+            <p>lorem ipsum</p>
+            <p>$50,99</p>
+            <button class="orderNow">Order Now</button>
         </div>
     </section>
     <footer class="bottom-site">
@@ -116,6 +104,7 @@
             <p>All rights reserved | <a href="https://github.com/Diogomc" target="_blank">Diogo Marcondes</a> © 2023</p>
         </div>
     </footer>
+    <script src="/js/menu.js"></script>
     <script src="/js/header.js"></script>
     <script src="/js/main.js"></script>
 </body>

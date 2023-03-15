@@ -1,6 +1,7 @@
 @import url("/styles/header.css");
 @import url("/styles/main.css");
 @import url("/styles/footer.css");
+@import url("/styles/menu.css");
 :root{
     --red: #E23E57;
     --brown: #473C33;

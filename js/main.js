@@ -23,10 +23,10 @@ button.forEach((element, index)=>{
 // --------------------------------- //
 
 
-const header = document.querySelector('.container__header');
-const rainbow = document.querySelector('.scroll')
+const header1 = document.querySelector('.container__header');
+const rainbow1 = document.querySelector('.scroll')
 
-rainbow.addEventListener('click',()=>{
+rainbow1.addEventListener('click',()=>{
     window.scrollTo({
         top: 0,
         behavior: 'smooth'
@@ -34,11 +34,11 @@ rainbow.addEventListener('click',()=>{
 })
 function setColor(){
     if(window.scrollY != 0){
-        header.classList.add('menu-window');
-        rainbow.style.display = 'block'
+        header1.classList.add('menu-window');
+        rainbow1.style.display = 'block'
     }else{
-        header.classList.remove('menu-window')
-        rainbow.style.display = 'none'
+        header1.classList.remove('menu-window')
+        rainbow1.style.display = 'none'
     }
 }
 window.addEventListener('scroll', setColor)

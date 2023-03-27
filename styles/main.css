@@ -33,7 +33,7 @@
     margin: 10px;
 }
 .food-item:hover{
-    transform: scale(1.1);
+    transform: scale(1.03);
     transition: 0.4s;
 }
 .btn-foods{

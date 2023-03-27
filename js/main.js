@@ -23,7 +23,6 @@ button.forEach((element, index)=>{
 // --------------------------------- //
 
 const rainbow = document.querySelector('.rainbow')
-const rainbowTop = document.querySelector('.rainbow-top')
 
 rainbow.addEventListener('click', ()=>{
     window.scrollTo({
@@ -32,11 +31,12 @@ rainbow.addEventListener('click', ()=>{
     })
 })
 
-function scrollDisplay(){
+function rainbowDisplay(){
     if(window.scrollY === 0){
-        rainbowTop.style.diplay = 'none'
+        document.querySelector('.rainbow').style.display = 'none'
     }else{
-        rainbowTop.style.diplay = 'block'
+        document.querySelector('.rainbow').style.display = 'block'
     }
 }
-window.addEventListener('scroll', scrollDisplay)
+
+window.addEventListener('scroll', rainbowDisplay)

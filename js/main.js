@@ -22,23 +22,21 @@ button.forEach((element, index)=>{
 })
 // --------------------------------- //
 
+const rainbow = document.querySelector('.rainbow')
+const rainbowTop = document.querySelector('.rainbow-top')
 
-const header1 = document.querySelector('.container__header');
-const rainbow1 = document.querySelector('.scroll')
-
-rainbow1.addEventListener('click',()=>{
+rainbow.addEventListener('click', ()=>{
     window.scrollTo({
         top: 0,
-        behavior: 'smooth'
+        behavior: "smooth"
     })
 })
-function setColor(){
-    if(window.scrollY != 0){
-        header1.classList.add('menu-window');
-        rainbow1.style.display = 'block'
+
+function scrollDisplay(){
+    if(window.scrollY === 0){
+        rainbowTop.style.diplay = 'none'
     }else{
-        header1.classList.remove('menu-window')
-        rainbow1.style.display = 'none'
+        rainbowTop.style.diplay = 'block'
     }
 }
-window.addEventListener('scroll', setColor)
+window.addEventListener('scroll', scrollDisplay)

@@ -1,34 +1,15 @@
-.first__container{
-    position: absolute;
-    top: 40%; 
-    left: 35%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.carousel-image{
+    height: 500px;
+    object-fit: cover;
 
 }
-.title__first{
-    font-size: 3rem;
-    text-transform: uppercase;
-    font-family: 'Shadows Into Light';
-    color: #fff;
+.carousel-title{
+    font-family: 'Pacifico', cursive;
 }
-.btn__first{
-    background-color: var(--red);
-    padding: 1rem;
-    font-size: 1rem;
-    text-transform: uppercase;
-    cursor: pointer;
-    border: none;
-    color: #fff;
+.nav-link{
+    margin: 0 20px;
 }
-.btn__first:hover{
-    box-shadow: 1px 1px 8px #000;
-    transition: 0.3s;
-    transform: scale(1.1);
-}
+
 .principal-foods{
     margin-top: 40px;
     display: flex;
